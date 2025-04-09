@@ -11,7 +11,7 @@ const cookieParser = require("cookie-parser");
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-const genai = new GoogleGenerativeAI('AIzaSyBrjSjw2Y6nbTq182znm7-tzODn-N2cTH0');
+const genai = new GoogleGenerativeAI('Your Api Key');
 const model = genai.getGenerativeModel({ model: "gemini-pro" });
 
 const app = express();
